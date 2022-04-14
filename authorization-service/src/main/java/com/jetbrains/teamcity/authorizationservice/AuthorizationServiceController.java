@@ -8,6 +8,6 @@ public class AuthorizationServiceController {
 
     @GetMapping("/")
     public String hello() {
-        return "Welcome To Simple Auth Server";
+        return "This is a testing auth server?";
     }
 }
